@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -159,10 +160,42 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BuildingsController.cs" />
+    <Compile Include="Controllers\DepartmentsController.cs" />
+    <Compile Include="Controllers\FacultiesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810301935352_InitialCreate.cs" />
+    <Compile Include="Migrations\201810301935352_InitialCreate.Designer.cs">
+      <DependentUpon>201810301935352_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810302017175_Second.cs" />
+    <Compile Include="Migrations\201810302017175_Second.Designer.cs">
+      <DependentUpon>201810302017175_Second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810302025327_Third.cs" />
+    <Compile Include="Migrations\201810302025327_Third.Designer.cs">
+      <DependentUpon>201810302025327_Third.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810302047236_forth.cs" />
+    <Compile Include="Migrations\201810302047236_forth.Designer.cs">
+      <DependentUpon>201810302047236_forth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810302056417_fifth.cs" />
+    <Compile Include="Migrations\201810302056417_fifth.Designer.cs">
+      <DependentUpon>201810302056417_fifth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810302130415_sixth.cs" />
+    <Compile Include="Migrations\201810302130415_sixth.Designer.cs">
+      <DependentUpon>201810302130415_sixth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Building.cs" />
+    <Compile Include="Models\Department.cs" />
+    <Compile Include="Models\Faculty.cs" />
+    <Compile Include="Models\PeopleProTrainingContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -172,6 +205,21 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="scripts\jquery-1.9.1.min.map" />
+    <Content Include="Views\Faculties\Create.cshtml" />
+    <Content Include="Views\Faculties\Delete.cshtml" />
+    <Content Include="Views\Faculties\Details.cshtml" />
+    <Content Include="Views\Faculties\Edit.cshtml" />
+    <Content Include="Views\Faculties\Index.cshtml" />
+    <Content Include="Views\Departments\Create.cshtml" />
+    <Content Include="Views\Departments\Delete.cshtml" />
+    <Content Include="Views\Departments\Details.cshtml" />
+    <Content Include="Views\Departments\Edit.cshtml" />
+    <Content Include="Views\Departments\Index.cshtml" />
+    <Content Include="Views\Buildings\Create.cshtml" />
+    <Content Include="Views\Buildings\Delete.cshtml" />
+    <Content Include="Views\Buildings\Details.cshtml" />
+    <Content Include="Views\Buildings\Edit.cshtml" />
+    <Content Include="Views\Buildings\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -181,7 +229,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Shared\DisplayTemplates\" />
     <Folder Include="Views\Shared\EditorTemplates\" />
   </ItemGroup>
@@ -194,6 +241,26 @@
       <Project>{5d101c0e-0749-4f64-807f-696b03800d9a}</Project>
       <Name>PeopleProTraining.Dal</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201810301935352_InitialCreate.resx">
+      <DependentUpon>201810301935352_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810302017175_Second.resx">
+      <DependentUpon>201810302017175_Second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810302025327_Third.resx">
+      <DependentUpon>201810302025327_Third.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810302047236_forth.resx">
+      <DependentUpon>201810302047236_forth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810302056417_fifth.resx">
+      <DependentUpon>201810302056417_fifth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810302130415_sixth.resx">
+      <DependentUpon>201810302130415_sixth.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
