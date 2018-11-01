@@ -25,6 +25,19 @@
         <dd>
             @Html.DisplayFor(model => model.ID)
         </dd>
+        @foreach (var item in Model.Buildings)
+        {
+            <tr>
+            <dt>
+                Building:
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(modelItem => item.Name)
+            </dd>
+
+            </tr>
+        }
         @foreach (var item in Model.FacultyMembers)
         {
             <tr>

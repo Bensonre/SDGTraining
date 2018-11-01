@@ -191,9 +191,9 @@
     <Compile Include="Migrations\201810302130415_sixth.Designer.cs">
       <DependentUpon>201810302130415_sixth.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201811011752364_Relation-between-Depo-Faculty.cs" />
-    <Compile Include="Migrations\201811011752364_Relation-between-Depo-Faculty.Designer.cs">
-      <DependentUpon>201811011752364_Relation-between-Depo-Faculty.cs</DependentUpon>
+    <Compile Include="Migrations\201811012028298_Buildings-relational.cs" />
+    <Compile Include="Migrations\201811012028298_Buildings-relational.Designer.cs">
+      <DependentUpon>201811012028298_Buildings-relational.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Building.cs" />
@@ -265,8 +265,8 @@
     <EmbeddedResource Include="Migrations\201810302130415_sixth.resx">
       <DependentUpon>201810302130415_sixth.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811011752364_Relation-between-Depo-Faculty.resx">
-      <DependentUpon>201811011752364_Relation-between-Depo-Faculty.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201811012028298_Buildings-relational.resx">
+      <DependentUpon>201811012028298_Buildings-relational.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

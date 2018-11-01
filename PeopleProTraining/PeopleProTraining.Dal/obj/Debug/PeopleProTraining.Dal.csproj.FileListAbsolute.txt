@@ -10,3 +10,14 @@ C:\Users\bensonre\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.D
 C:\Users\bensonre\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.dll
 C:\Users\bensonre\Source\Repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.pdb
 C:\Users\bensonre\source\repos\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.csprojAssemblyReference.cache
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\bin\Debug\PeopleProTraining.Dal.dll.config
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\bin\Debug\PeopleProTraining.Dal.dll
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\bin\Debug\PeopleProTraining.Dal.pdb
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\bin\Debug\EntityFramework.dll
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\bin\Debug\EntityFramework.xml
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.csproj.CoreCompileInputs.cache
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.csproj.CopyComplete
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.dll
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.pdb

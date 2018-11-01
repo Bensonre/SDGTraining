@@ -12,21 +12,16 @@ namespace PeopleProTraining.Models
 
         public List<Faculty> FacultyMembers { get; set; }
 
-        public Department()
-        {
-            ID = 0;
-            Name = "\0";
-            FacultyMembers = null;
-        }
+        public List<Building> Buildings { get; set; }
 
-        public void addNewFacultyMember(Faculty faculty)
-        {
-            FacultyMembers.Add(faculty);
-        }
+     
         public void setFacultyMembers(List<Faculty> faculty)
         {
             FacultyMembers=faculty;
         }
-
+        public void setBuildings(List<Building> buildings)
+        {
+            Buildings = buildings;
+        }
     }
 }

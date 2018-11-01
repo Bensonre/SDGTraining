@@ -23,10 +23,12 @@ namespace PeopleProTraining.Models
             return;
         }
 
-        private void AutoSet_Department_ID( string D_Name){
+        private void AutoSet_Department_ID(string D_Name)
+        {
             List<Department> departments = db.Departments.ToList();
 
-            for (int i=0; i<departments.Count(); i++){
+            for (int i = 0; i < departments.Count(); i++)
+            {
                 if (departments[i].Name == D_Name)
                 {
                     this.Department_ID = departments[i].ID;
@@ -34,6 +36,8 @@ namespace PeopleProTraining.Models
             }
             return;
         }
+
+
     }
         
         

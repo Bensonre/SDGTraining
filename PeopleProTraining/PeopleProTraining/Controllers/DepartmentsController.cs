@@ -29,7 +29,9 @@ namespace PeopleProTraining.Controllers
             }
             Department department = db.Departments.Find(id);
             List<Faculty> faculty = db.Faculties.ToList().FindAll(x => x.Department_ID == id);
+            List<Building> buildings = db.Buildings.ToList().FindAll(x => x.Department_ID == id);
             department.setFacultyMembers(faculty);
+            department.setBuildings(buildings);
             if (department == null)
             {
                 return HttpNotFound();
