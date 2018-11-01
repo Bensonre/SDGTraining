@@ -62,3 +62,4 @@ C:\Users\bensonre\source\repos\SDGTraining\PeopleProTraining\PeopleProTraining\o
 C:\Users\bensonre\source\repos\SDGTraining\PeopleProTraining\PeopleProTraining\obj\Debug\PeopleProTraining.Migrations.forth.resources
 C:\Users\bensonre\source\repos\SDGTraining\PeopleProTraining\PeopleProTraining\obj\Debug\PeopleProTraining.Migrations.fifth.resources
 C:\Users\bensonre\source\repos\SDGTraining\PeopleProTraining\PeopleProTraining\obj\Debug\PeopleProTraining.Migrations.sixth.resources
+C:\Users\bensonre\source\repos\SDGTraining\PeopleProTraining\PeopleProTraining\obj\Debug\PeopleProTraining.Migrations.RelationbetweenDepoFaculty.resources

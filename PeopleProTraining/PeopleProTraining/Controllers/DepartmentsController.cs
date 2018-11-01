@@ -28,6 +28,8 @@ namespace PeopleProTraining.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Department department = db.Departments.Find(id);
+            List<Faculty> faculty = db.Faculties.ToList().FindAll(x => x.Department_ID == id);
+            department.setFacultyMembers(faculty);
             if (department == null)
             {
                 return HttpNotFound();

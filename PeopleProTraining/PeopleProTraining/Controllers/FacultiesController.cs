@@ -46,10 +46,11 @@ namespace PeopleProTraining.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Name")] Faculty faculty)
+        public ActionResult Create([Bind(Include = "ID,Name, Department_Name, Department_ID")] Faculty faculty)
         {
             if (ModelState.IsValid)
             {
+                faculty.Set_Department_Name(faculty.Department_Name);
                 db.Faculties.Add(faculty);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -78,10 +79,11 @@ namespace PeopleProTraining.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Name")] Faculty faculty)
+        public ActionResult Edit([Bind(Include = "ID,Name, Department_Name, Department_ID")] Faculty faculty)
         {
             if (ModelState.IsValid)
             {
+                faculty.Set_Department_Name(faculty.Department_Name);
                 db.Entry(faculty).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");

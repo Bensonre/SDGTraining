@@ -23,6 +23,10 @@ namespace PeopleProTraining.Models
         {
             FacultyMembers.Add(faculty);
         }
+        public void setFacultyMembers(List<Faculty> faculty)
+        {
+            FacultyMembers=faculty;
+        }
 
     }
 }

@@ -191,6 +191,10 @@
     <Compile Include="Migrations\201810302130415_sixth.Designer.cs">
       <DependentUpon>201810302130415_sixth.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811011752364_Relation-between-Depo-Faculty.cs" />
+    <Compile Include="Migrations\201811011752364_Relation-between-Depo-Faculty.Designer.cs">
+      <DependentUpon>201811011752364_Relation-between-Depo-Faculty.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Building.cs" />
     <Compile Include="Models\Department.cs" />
@@ -260,6 +264,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810302130415_sixth.resx">
       <DependentUpon>201810302130415_sixth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811011752364_Relation-between-Depo-Faculty.resx">
+      <DependentUpon>201811011752364_Relation-between-Depo-Faculty.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

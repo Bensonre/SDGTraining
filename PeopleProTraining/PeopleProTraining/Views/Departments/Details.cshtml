@@ -13,19 +13,32 @@
         <dt>
             @Html.DisplayNameFor(model => model.Name)
         </dt>
-        <dt>
-            @Html.DisplayNameFor(model => model.FacultyMembers)
-        </dt>
+
         <dd>
             @Html.DisplayFor(model => model.Name)
         </dd>
-        @foreach (var item in Faculty) {
-        <tr>
-            <td>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID)
+        </dd>
+        @foreach (var item in Model.FacultyMembers)
+        {
+            <tr>
+            <dt>
+                Employee:
+            </dt>
+
+            <dd>
                 @Html.DisplayFor(modelItem => item.Name)
-            </td>
-        </tr>
+            </dd>
+
+            </tr>
         }
+
 
     </dl>
 </div>
