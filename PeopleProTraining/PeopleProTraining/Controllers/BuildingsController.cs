@@ -50,6 +50,11 @@ namespace PeopleProTraining.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (!db.Departments.ToList().Exists(x => x.Name == building.Department_Name))
+                {
+                    db.Departments.Add(new Department() { Name = building.Department_Name });
+                    db.SaveChanges();
+                }
                 building.Set_Department_Name(building.Department_Name);
                 db.Buildings.Add(building);
                 db.SaveChanges();
@@ -82,6 +87,11 @@ namespace PeopleProTraining.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (!db.Departments.ToList().Exists(x => x.Name == building.Department_Name))
+                {
+                    db.Departments.Add(new Department() { Name = building.Department_Name });
+                    db.SaveChanges();
+                }
                 building.Set_Department_Name(building.Department_Name);
                 db.Entry(building).State = EntityState.Modified;
                 db.SaveChanges();

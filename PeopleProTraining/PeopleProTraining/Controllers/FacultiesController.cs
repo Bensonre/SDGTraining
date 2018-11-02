@@ -50,10 +50,15 @@ namespace PeopleProTraining.Controllers
         {
             if (ModelState.IsValid)
             {
-                faculty.Set_Department_Name(faculty.Department_Name);
-                db.Faculties.Add(faculty);
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                if (!db.Departments.ToList().Exists(x => x.Name == faculty.Department_Name))
+                {
+                    db.Departments.Add(new Department() { Name = faculty.Department_Name });
+                    db.SaveChanges();
+                }
+                    faculty.Set_Department_Name(faculty.Department_Name);
+                    db.Faculties.Add(faculty);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
             }
 
             return View(faculty);
@@ -83,6 +88,11 @@ namespace PeopleProTraining.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (!db.Departments.ToList().Exists(x => x.Name == faculty.Department_Name))
+                {
+                    db.Departments.Add(new Department() { Name = faculty.Department_Name });
+                    db.SaveChanges();
+                }
                 faculty.Set_Department_Name(faculty.Department_Name);
                 db.Entry(faculty).State = EntityState.Modified;
                 db.SaveChanges();
