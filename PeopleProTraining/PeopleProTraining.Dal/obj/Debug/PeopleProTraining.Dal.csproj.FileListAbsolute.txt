@@ -21,4 +21,3 @@ C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProT
 C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.csproj.CopyComplete
 C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.dll
 C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.pdb
-C:\Users\bensonre\source\repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTraining.Dal\obj\Debug\PeopleProTraining.Dal.csprojAssemblyReference.cache

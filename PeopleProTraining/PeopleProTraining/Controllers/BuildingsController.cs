@@ -55,7 +55,7 @@ namespace PeopleProTraining.Controllers
                     db.Departments.Add(new Department() { Name = building.Department_Name });
                     db.SaveChanges();
                 }
-                building.Set_Department_Name(building.Department_Name);
+                building.AutoSet_Department_ID(building.Department_Name);
                 db.Buildings.Add(building);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -92,7 +92,7 @@ namespace PeopleProTraining.Controllers
                     db.Departments.Add(new Department() { Name = building.Department_Name });
                     db.SaveChanges();
                 }
-                building.Set_Department_Name(building.Department_Name);
+                building.AutoSet_Department_ID(building.Department_Name);
                 db.Entry(building).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");

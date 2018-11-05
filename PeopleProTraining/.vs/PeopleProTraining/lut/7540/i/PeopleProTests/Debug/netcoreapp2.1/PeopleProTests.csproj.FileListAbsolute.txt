@@ -1,0 +1,8 @@
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\.vs\PeopleProTraining\lut\0\i\PeopleProTests\Debug\netcoreapp2.1\PeopleProTests.csprojAssemblyReference.cache
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\.vs\PeopleProTraining\lut\0\i\PeopleProTests\Debug\netcoreapp2.1\PeopleProTests.csproj.CoreCompileInputs.cache
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\.vs\PeopleProTraining\lut\0\i\PeopleProTests\Debug\netcoreapp2.1\PeopleProTests.AssemblyInfoInputs.cache
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\.vs\PeopleProTraining\lut\0\i\PeopleProTests\Debug\netcoreapp2.1\PeopleProTests.AssemblyInfo.cs
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\.vs\PeopleProTraining\lut\0\b\PeopleProTests\Debug\netcoreapp2.1\PeopleProTests.deps.json
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\.vs\PeopleProTraining\lut\0\b\PeopleProTests\Debug\netcoreapp2.1\PeopleProTests.dll
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\.vs\PeopleProTraining\lut\0\i\PeopleProTests\Debug\netcoreapp2.1\PeopleProTests.csproj.CopyComplete
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\.vs\PeopleProTraining\lut\0\i\PeopleProTests\Debug\netcoreapp2.1\PeopleProTests.dll

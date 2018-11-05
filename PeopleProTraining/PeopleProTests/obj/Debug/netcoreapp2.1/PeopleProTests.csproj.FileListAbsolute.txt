@@ -1,0 +1,14 @@
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTests\bin\Debug\netcoreapp2.1\PeopleProTests.deps.json
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTests\bin\Debug\netcoreapp2.1\PeopleProTests.runtimeconfig.json
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTests\bin\Debug\netcoreapp2.1\PeopleProTests.runtimeconfig.dev.json
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTests\bin\Debug\netcoreapp2.1\PeopleProTests.dll
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTests\bin\Debug\netcoreapp2.1\PeopleProTests.pdb
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTests\obj\Debug\netcoreapp2.1\PeopleProTests.csprojAssemblyReference.cache
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTests\obj\Debug\netcoreapp2.1\PeopleProTests.csproj.CoreCompileInputs.cache
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTests\obj\Debug\netcoreapp2.1\PeopleProTests.AssemblyInfoInputs.cache
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTests\obj\Debug\netcoreapp2.1\PeopleProTests.AssemblyInfo.cs
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTests\obj\Debug\netcoreapp2.1\PeopleProTests.dll
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\PeopleProTests\obj\Debug\netcoreapp2.1\PeopleProTests.pdb

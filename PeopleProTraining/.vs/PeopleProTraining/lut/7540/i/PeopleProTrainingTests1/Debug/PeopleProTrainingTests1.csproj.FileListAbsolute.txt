@@ -1,0 +1,5 @@
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\.vs\PeopleProTraining\lut\0\b\PeopleProTrainingTests1\bin\Debug\PeopleProTrainingTests1.dll
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\.vs\PeopleProTraining\lut\0\i\PeopleProTrainingTests1\Debug\PeopleProTrainingTests1.csprojAssemblyReference.cache
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\.vs\PeopleProTraining\lut\0\i\PeopleProTrainingTests1\Debug\PeopleProTrainingTests1.csproj.CoreCompileInputs.cache
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\.vs\PeopleProTraining\lut\0\i\PeopleProTrainingTests1\Debug\PeopleProTrainingTests1.csproj.CopyComplete
+C:\Users\bensonre\Source\Repos\Bensonre\SDGTraining\PeopleProTraining\.vs\PeopleProTraining\lut\0\i\PeopleProTrainingTests1\Debug\PeopleProTrainingTests1.dll
