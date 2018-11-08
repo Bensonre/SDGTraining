@@ -1,0 +1,33 @@
+﻿@model IEnumerable<PeopleProTraining.Models.Department>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="color:azure;">Departments</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" style="color:azure;">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr style="color:azure;">
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.DepartmentID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DepartmentID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.DepartmentID })
+        </td>
+    </tr>
+}
+
+</table>

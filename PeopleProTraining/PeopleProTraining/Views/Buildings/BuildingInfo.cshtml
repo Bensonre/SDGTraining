@@ -1,0 +1,15 @@
+﻿@model IEnumerable<PeopleProTraining.Models.Building>
+@{
+    ViewBag.Title = "BuildingInfo";
+}
+<div class="container">
+    <h4 style="text-align: center; border-bottom: 1px solid #808080">BuildingInfo</h4>
+    @foreach (var item in Model)
+    {
+        <p><label> Building: </label>@item.Name</p>
+        <p><label> Opens: </label>@item.Opens</p>
+        <p><label> Closes: </label>@item.Closes</p>
+        <p><label> Location: </label>@item.Location</p>
+
+    }
+</div>
