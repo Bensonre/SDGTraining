@@ -19,6 +19,18 @@ namespace PeopleProTraining.Controllers
         {
             return View(db.Buildings.ToList());
         }
+        public JsonResult GetAllEmployee()
+        {
+            var BuildInfo = db.Buildings.Select(x => new
+            {
+                Id = x.BuildingID,
+                Name = x.Name,
+                OpenTime = x.Opens,
+                closeTime = x.Closes,
+                location = x.Location
+            }).ToList();
+            return Json(BuildInfo, JsonRequestBehavior.AllowGet);
+        }
 
         public ActionResult BuildingInfo(int id)
         {

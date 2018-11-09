@@ -19,6 +19,10 @@
         </dd>
 
     </dl>
+    @foreach (var item in Model.Employees)
+        {
+            <p>     <label> Employee: </label>@item.FirstName @item.LastName</p>
+        }
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.DepartmentID }) |

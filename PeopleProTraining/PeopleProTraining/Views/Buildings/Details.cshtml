@@ -17,11 +17,11 @@
             <dd>
                 @Html.DisplayFor(model => model.Name)
             </dd>
-            @foreach (var item in Model.Employees)
-            {
-                <p><label> Employee: </label>@item.FirstName @item.LastName</p>
-            }
         </dl>
+        @foreach (var item in Model.Employees)
+        {
+            <p><label> Employee: </label>@item.FirstName @item.LastName</p>
+        }
     </div>
     <p>
         @Html.ActionLink("Edit", "Edit", new { id = Model.BuildingID }) |

@@ -1,4 +1,6 @@
 ﻿@model IEnumerable<PeopleProTraining.Models.Building>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 @{
     ViewBag.Title = "Index";
@@ -25,7 +27,8 @@
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
                 <td>
-                    <a href="#" data-toggle="popover" data-trigger="hover" id="@item.BuildingID">More Info</a>
+                    <a href="#" data-toggle="popover" title="@item.Name Times" html="true" data-Content=" Opens:@item.Opens     Closes: @item.Closes         Location:@item.Location"> Hours</a>
+
                 </td>
                 <td>
                     @Html.ActionLink("Edit", "Edit", new { id = item.BuildingID }) |
@@ -37,29 +40,33 @@
 
     </table>
 </div>
-<script src="~/scripts/jquery-1.10.2.min.js"></script>
 <script>
     $(document).ready(function () {
-        $('[data-toggle="popover"]').popover({
-            title: setData,
-            html: true,
-            placement: 'right'
-        });
-        function setData(id) {
-            var set_data = '';
-            var element = $(this);
-            var id = element.attr("id");
-            $ajax({
-                url: "/Buildings/BuildingInfo?id" + id,
-                method: "post",
-                async: false,
-                data:{ id: id },
-                success: function (data) {
-                    set_data = data;
-                }
-
-            });
-            return set_data;
-        }
-    })
+        $('[data-toggle="popover"]').popover();
+    });
 </script>
+<style>
+    .popover {
+    border: 2px dotted red;
+}
+
+/* Popover Header */
+.popover-title {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 28px;
+    text-align:center;
+}
+
+/* Popover Body */
+.popover-content {
+    background-color: whitesmoke;
+    color: black;
+    padding: 25px;
+}
+
+/* Popover Arrow */
+.arrow {
+    border-right-color: red !important;
+}
+</style>

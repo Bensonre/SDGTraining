@@ -11,7 +11,8 @@ namespace PeopleProTraining.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class Building
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -21,6 +22,7 @@ namespace PeopleProTraining.Models
         }
     
         public int BuildingID { get; set; }
+        [Display(Name = "Building")]
         public string Name { get; set; }
         public string Location { get; set; }
         public Nullable<System.TimeSpan> Opens { get; set; }
